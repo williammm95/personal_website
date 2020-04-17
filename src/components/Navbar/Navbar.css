@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+.navbar {
+  background: #0f0c29;
+  background: -webkit-linear-gradient( to right, #24243e, #302b63, #0f0c29 );
+  background: linear-gradient( to right, #24243e, #302b63, #0f0c29 );
+  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  border: none;
+}
+
+
+.navbar li a {
+  color: white;
+  letter-spacing: 3px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+a.disabled {
+  pointer-events: none;
+  cursor: default;
+  text-decoration: line-through;
+}

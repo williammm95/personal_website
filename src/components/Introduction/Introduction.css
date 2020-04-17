@@ -1,0 +1,75 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.intro-grid {
+  background-image: url("./asdf.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  width: auto;
+  height: auto;
+  filter: saturate(1.9);
+
+}
+
+.background-img {
+  margin: auto;
+  width: 35%;
+  border-radius: 100%;
+  background-size: auto;
+  padding: 5em 5em;
+  opacity: 0.9;
+}
+
+.banner-text {
+  background-color: black;
+  opacity: .8;
+  width: 75%;
+  margin: 80px 200px 0px 200px;
+  padding-bottom: 20px;
+  border-radius: 10px;
+  position: relative;
+
+}
+
+.banner-text h1 {
+  letter-spacing: 4px;
+  font-size: 75px;
+  font-weight: bold;
+  color: white;
+  text-transform: uppercase;
+  font-family: 'Josefin Sans', sans-serif;
+
+}
+
+.banner-text hr {
+  border-top: 5px dotted white;
+  width: 50%;
+  margin: auto;
+}
+
+.banner-text p {
+  color: white;
+  font-size: 35px;
+  padding: 1em;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-family: 'Indie Flower', cursive;
+
+}
+
+.social-links {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  margin: auto;
+}
+
+.social-links i {
+  color: white;
+  font-size: 5em;
+  padding: 8px;
+}

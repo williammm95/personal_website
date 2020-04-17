@@ -1,0 +1,43 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+
+.projects {
+  border: 5px dotted black;
+  background: #0f0c29;
+  background: -webkit-linear-gradient( to right, #24243e, #302b63, #0f0c29 );
+  background: linear-gradient( to right, #24243e, #302b63, #0f0c29 );
+
+
+}
+
+
+#projects {
+  text-align: center;
+  padding: 20px;
+  width: 100%;
+  letter-spacing: 4px;
+  font-size: 75px;
+  font-weight: bold;
+  color: white;
+  text-transform: uppercase;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+
+
+.cell-test {
+  border-top: 5px dotted blue;
+  text-align: center;
+  padding-bottom: 200px;
+  padding-top: 200px;
+}
+
+.projects-card {
+  display: inline-flex;
+  margin-left: 40px;
+  position: relative;
+}

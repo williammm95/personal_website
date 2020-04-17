@@ -1,0 +1,51 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.contact-body {
+  display: inline-flex;
+  background: #ff6e7f;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #bfe9ff, #ff6e7f);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #bfe9ff, #ff6e7f); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  width: 100%;
+  padding: 20px;
+  color: white;
+  text-align: center;
+}
+
+
+.contact-grid h2 {
+  font-weight: bold;
+  font-family: 'Oxygen', sans-serif;
+  letter-spacing: 3px;
+}
+
+
+
+.contact-grid hr {
+  border-top: 5px dotted black;
+  width: 50%;
+  margin: auto;
+}
+
+a.disabled {
+  pointer-events: none;
+  cursor: default;
+  text-decoration: line-through;
+}
+
+#contact_me {
+  letter-spacing: 4px;
+  font-size: 75px;
+  font-weight: bold;
+  color: black;
+  text-transform: uppercase;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+#icon_style {
+  color: rgb(255, 73, 180);
+  padding-left: 150px;
+}
