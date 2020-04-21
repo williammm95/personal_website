@@ -17,24 +17,24 @@ export class Navbar extends React.Component {
   }
   render() {
     return (
-      <div id="nav">
-          <Layout className="test">
-              <Header title=' ' className="navbar" scroll>
+      <div id="container-nav">
+          <Layout>
+              <Header title=' ' className="header-navbar" scroll>
                   <Navigation>
                     <li>
-                      <a href="/" className="disabled">{this.state.titles.resume}</a>
+                      <a href="/" id="testing">{this.state.titles.resume}</a>
                     </li>
 
                     <li>
-                      <a href="/" className="disabled">{this.state.titles.about}</a>
+                      <a href="#about_me_tab">{this.state.titles.about}</a>
                     </li>
 
                     <li>
-                      <a href="#projects" style={{textDecoration: 'none'}}>{this.state.titles.projects}</a>
+                      <a href="#projects_tab">{this.state.titles.projects}</a>
                     </li>
 
                     <li>
-                      <a href="#contact_me" style={{textDecoration: 'none'}}>{this.state.titles.contact}</a>
+                      <a href="#contact_me_tab">{this.state.titles.contact}</a>
                     </li>
                   </Navigation>
               </Header>

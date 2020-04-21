@@ -1,6 +1,6 @@
 import React from 'react';
 import './Projects.css';
-import { Grid, Cell, Card, CardTitle, CardText, CardActions, Button, CardMenu, IconButton } from 'react-mdl';
+import { Grid, Card, CardTitle, CardActions, Button } from 'react-mdl';
 
 
 export class Projects extends React.Component {
@@ -8,9 +8,6 @@ export class Projects extends React.Component {
     super(props);
     this.state = ({
       style: {
-        color: '#fff',
-        height: '176px',
-        background: 'url(https://arabiconline.eu/wp-content/uploads/2017/08/photo-960x675.jpg) center / cover',
       }
 
     })
@@ -18,62 +15,37 @@ export class Projects extends React.Component {
 
   render() {
     return (
-      <div>
-        <Grid className="projects">
-          <h2 id="projects">PROJECTS</h2>
-          <Cell className="cell-test" col={12}>
-            <div className="projects-card">
-              {/* Project 1*/}
-              <Card shadow={5}>
-              <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://arabiconline.eu/wp-content/uploads/2017/08/photo-960x675.jpg) center / cover'}} >React Project #1</CardTitle>
-                <CardText>wooooooooooooooooooooooooo</CardText>
-                <CardActions border>
-                  <Button colored>Github</Button>
-                  <Button colored>Code</Button>
-                  <Button colored>Demo</Button>
-                </CardActions>
-                <CardMenu style={{color: '#fff'}}>
-                    <IconButton name="share" />
-                </CardMenu>
-              </Card>
-            </div>
+      <div className="container-projects">
+        <h2 id="projects_tab">PROJECTS</h2>
+        <hr/>
+        <Grid className="projects-grid">
 
-            <div className="projects-card">
+          <div className="container-projects-card">
               {/* Project 1*/}
-              <Card shadow={5} style={{minWidth: '450', margin:'auto'}}>
-                <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://arabiconline.eu/wp-content/uploads/2017/08/photo-960x675.jpg) center / cover'}} >React Project #1</CardTitle>
-                <CardText>wooooooooooooooooooooooooo</CardText>
-                <CardActions border>
-                  <Button colored>Github</Button>
-                  <Button colored>Code</Button>
-                  <Button colored>Demo</Button>
+            <Card shadow={4}>
+              <CardTitle className="projects-card-bg-1"></CardTitle>
+                <CardActions border style={{backgroundColor: 'rgb(11, 25, 61)'}}>
+                  <Button className="projects-card-button" colored>
+                    <a href="https://github.com/williammm95/personal_website" target="_blank" rel="noopener noreferrer">Portfolio Website</a>
+                  </Button>
                 </CardActions>
-                <CardMenu style={{color: '#fff'}}>
-                    <IconButton name="share" />
-                </CardMenu>
               </Card>
-            </div>
+          </div>
 
-            <div className="projects-card">
-              {/* Project 1*/}
-              <Card shadow={5} style={{minWidth: '450', margin:'auto'}}>
-                <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://arabiconline.eu/wp-content/uploads/2017/08/photo-960x675.jpg) center / cover'}} >React Project #1</CardTitle>
-                <CardText>wooooooooooooooooooooooooo</CardText>
-                <CardActions border>
-                  <Button colored>Github</Button>
-                  <Button colored>Code</Button>
-                  <Button colored>Demo</Button>
-                </CardActions>
-                <CardMenu style={{color: '#fff'}}>
-                    <IconButton name="share" />
-                </CardMenu>
+
+          <div className="container-projects-card">
+            <Card shadow={4}>
+                <CardTitle className="projects-card-bg-2"></CardTitle>
+                  <CardActions border style={{backgroundColor: 'rgb(11, 25, 61)'}}>
+                    <Button className="projects-card-button" colored>
+                      <a href="https://github.com/williammm95/Kaggle_Titanic" target="_blank" rel="noopener noreferrer">Machine Learning: Titanic</a>
+                    </Button>
+                  </CardActions>
               </Card>
+          </div>
 
-              </div>
-          </Cell>
         </Grid>
       </div>
-
     )
   }
 }

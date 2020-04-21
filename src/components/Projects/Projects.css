@@ -5,17 +5,16 @@
 }
 
 
-.projects {
-  border: 5px dotted black;
-  background: #0f0c29;
-  background: -webkit-linear-gradient( to right, #24243e, #302b63, #0f0c29 );
-  background: linear-gradient( to right, #24243e, #302b63, #0f0c29 );
-
-
+.container-projects {
+  background: #076585;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #fff, #076585);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #fff, rgb(140, 140, 140)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  padding-bottom: 180px;
+  padding-top: 20px;
+  margin: auto;
 }
 
-
-#projects {
+.container-projects h2 {
   text-align: center;
   padding: 20px;
   width: 100%;
@@ -25,19 +24,43 @@
   color: white;
   text-transform: uppercase;
   font-family: 'Josefin Sans', sans-serif;
+  color: black;
 }
 
-
-
-.cell-test {
-  border-top: 5px dotted blue;
-  text-align: center;
-  padding-bottom: 200px;
-  padding-top: 200px;
+.container-projects hr {
+  border-top: 4px solid black;
+  width: 47%;
+  margin: auto;
 }
 
-.projects-card {
-  display: inline-flex;
-  margin-left: 40px;
-  position: relative;
+.projects-grid {
+  justify-content: center;
+}
+
+.container-projects-card {
+  padding-top: 100px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.projects-card-bg-1 {
+  background-image: url("./webpage.PNG");
+  background-size: cover;
+  background-position: center;
+  width: 340px;
+  height: 400px;
+  padding-bottom: 100px;
+}
+
+.projects-card-bg-2 {
+  background-image: url("./titanic.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 340px;
+  height: 400px;
+  padding-bottom: 100px;
+}
+
+.projects-card-button {
+  text-transform: uppercase;
 }

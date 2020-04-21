@@ -4,45 +4,50 @@
   box-sizing: border-box;
 }
 
-.contact-body {
-  display: inline-flex;
-  background: #ff6e7f;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #bfe9ff, #ff6e7f);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #bfe9ff, #ff6e7f); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+.container-contactme {
+  background: #0f0c29;
+  background: -webkit-linear-gradient( to right, #24243e, rgb(54, 7, 79), #0f0c29 );
+  background: linear-gradient( to right, #24243e, rgb(54, 7, 79), #0f0c29 );
   width: 100%;
   padding: 20px;
   color: white;
+  padding-bottom: 200px;
+}
+
+
+.container-contactme h2 {
   text-align: center;
-}
-
-
-.contact-grid h2 {
+  padding: 20px;
+  width: 100%;
+  letter-spacing: 4px;
+  font-size: 75px;
   font-weight: bold;
-  font-family: 'Oxygen', sans-serif;
-  letter-spacing: 3px;
+  color: white;
+  text-transform: uppercase;
+  font-family: 'Josefin Sans', sans-serif;
+
 }
 
 
 
-.contact-grid hr {
-  border-top: 5px dotted black;
-  width: 50%;
+.container-contactme hr {
+  border-top: 3px solid white;
+  width: 47%;
   margin: auto;
+  padding-bottom: 50px;
 }
+
+.contactme-grid {
+  justify-content: center;
+  transform: translateX(-40px);
+}
+
+
 
 a.disabled {
   pointer-events: none;
   cursor: default;
   text-decoration: line-through;
-}
-
-#contact_me {
-  letter-spacing: 4px;
-  font-size: 75px;
-  font-weight: bold;
-  color: black;
-  text-transform: uppercase;
-  font-family: 'Josefin Sans', sans-serif;
 }
 
 #icon_style {

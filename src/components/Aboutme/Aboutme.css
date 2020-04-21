@@ -3,3 +3,70 @@
   padding: 0px;
   box-sizing: border-box;
 }
+
+.container-aboutme {
+  background: #0f0c29;
+  background: -webkit-linear-gradient( to right, #24243e, rgb(54, 7, 79), #0f0c29 );
+  background: linear-gradient( to right, #24243e, rgb(54, 7, 79), #0f0c29 );
+  margin: auto;
+  text-align: center;
+  width: 100%;
+  bottom: 100px;
+  padding-bottom: 80px;
+}
+
+.container-aboutme h1 {
+  letter-spacing: 4px;
+  font-size: 75px;
+  font-weight: bold;
+  color: white;
+  text-transform: uppercase;
+  font-family: 'Josefin Sans', sans-scontainererif;
+}
+
+.container-aboutme hr {
+  border-top: 3px solid white;
+  width: 47%;
+  margin: auto;
+}
+
+
+.aboutme-grid {
+  justify-content: center;
+}
+
+.container-aboutme-intro {
+  padding-top: 40px;
+  padding-left: 100px;
+}
+
+.container-aboutme-intro h6 {
+  letter-spacing: 2px;
+  font-weight: 500;
+  margin: 10px;
+  color: rgb(227, 87, 87);
+  text-shadow: 2px 2px rgb(4, 1, 6);
+  text-align: left;
+}
+
+.container-aboutme-intro span {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.container-aboutme-intro h3, .container-aboutme-intro a {
+  letter-spacing: 2px;
+  font-weight: bold;
+  text-decoration: underline;
+  margin: 10px;
+  color: rgb(227, 87, 87);
+  text-shadow: 2px 2px rgb(4, 1, 6);
+  text-align: center;
+  transform: translateX(-40px);
+}
+
+
+.container-aboutme-video {
+  padding-top: 40px;
+  padding-bottom: 80px;
+}

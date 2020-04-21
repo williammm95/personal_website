@@ -6,7 +6,9 @@
 
 #footer {
   text-align: center;
-  background-color: rgb(10, 5, 71);
+  background: #0f0c29;
+  background: -webkit-linear-gradient( to right, #24243e, rgb(54, 7, 79), #0f0c29 );
+  background: linear-gradient( to right, #24243e, rgb(54, 7, 79), #0f0c29 );
   color: white;
 }
 

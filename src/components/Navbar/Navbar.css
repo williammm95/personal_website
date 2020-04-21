@@ -9,25 +9,41 @@ html {
 }
 
 
-.navbar {
+
+.header-navbar {
+  text-align: center;
+  text-align: center;
   background: #0f0c29;
-  background: -webkit-linear-gradient( to right, #24243e, #302b63, #0f0c29 );
-  background: linear-gradient( to right, #24243e, #302b63, #0f0c29 );
-  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  background: -webkit-linear-gradient( to right, #24243e, rgb(54, 7, 79), #0f0c29 );
+  background: linear-gradient( to right, #24243e, rgb(54, 7, 79), #0f0c29 );
+  opacity: 0.9;
   text-transform: uppercase;
-  border: none;
+
 }
 
 
-.navbar li a {
-  color: white;
+.header-navbar li a {
   letter-spacing: 3px;
   font-weight: bold;
   font-size: 14px;
+  text-decoration: none;
 }
+
 
 a.disabled {
   pointer-events: none;
   cursor: default;
   text-decoration: line-through;
+}
+
+
+#test a:hover {
+ color: black;
+ background-color: #CC0;
+ text-decoration: none;
+}
+#test a:active {
+ color: #FFF;
+ background-color: #0C6;
+ text-decoration: none;
 }
